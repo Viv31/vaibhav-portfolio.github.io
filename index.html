@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet"  href="css/Style.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/Style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- <script src="js/bootstrap.min.js"></script> -->
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body id="make_pdf">
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -20,9 +20,9 @@
 
         </button>
       </div>
-      <div class="collapse navbar-collapse " id="main-navbar" >
+      <div class="collapse navbar-collapse" id="main-navbar">
         <ul class="nav navbar-nav">
-        	<li><a href="#home">Vaibhav Gangrade</a></li>
+           <li><a href="#home">Vaibhav Gangrade</a></li>
           <li><a href="#home">HOME</a></li>
           <li><a href="#expenrience">EXPERIENCE</a></li>
           <li><a href="#education">EDUCATION</a></li>
@@ -30,26 +30,23 @@
           <li><a href="#projects">PROJECTS</a></li>
           <li><a href="#hobbies">HOBBIES</a></li>
           <li><a href="#contact">Contact Me</a></li>
-          
-
-          
+        
         </ul>
         <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><i class="fa fa-linkedin-square" style="font-size: 30px;"></i></a></li>
-      <li><a href="www.github.com/viv31"><i class="fa fa-github-square" style="font-size: 30px;"></i> </a></li>
      
-           <li><a href="Vaibhav Gangrade web Developer 2years.docx" download><i class="fa fa-download" style="font-size: 30px;"></i>CV</a></li>
+           <li>
+            <a href="Vaibhav Gangrade web Developer 2years.docx" download><i class="fa fa-download" style="font-size: 30px;"></i></a></li>
   
     </ul>
       </div>
         
       </div>
-    </div>
+   
   </nav>
   <div class="container-fluid" >
     <div class="jumbotron" id="home">
       <div class="profile_img">
-        <img src="img/b.jpg" class="img-circle" height="150" width="150">
+        <img src="img/vaibhav.jpg" class="img-circle" height="150" width="150">
       </div>
      Vaibhav
     </div>
@@ -119,6 +116,7 @@
 
 <div class="row" id="skills">
   <h2 class="text-center text-primary">Skill Set</h2>
+<div class="skill_container" id="skill_container">
   <div class="col-md-6">
 <div class="progress">
 
@@ -191,74 +189,76 @@
 </div>
   </div>
 </div>
+</div>
 
 
   
   <div class="row" id="projects">
     <h2 class="text-primary text-center">Projects</h2>
+    
     <div class="col-md-12 compainies">
-      <button class="btn btn-primary btn-sm">All</button>
-      <button class="btn btn-primary btn-sm">PHP/WORDPRESS</button>
-      <button class="btn btn-primary btn-sm">MVC .NET</button>
+      <button class="btn btn-primary btn-sm active"  id="all">All</button>
+      <button class="btn btn-primary btn-sm" id="php_project">PHP/WORDPRESS</button>
+      <button class="btn btn-primary btn-sm" id="MvcProject">MVC .NET</button>
   </div>
-  <div class="row">
-    <div class="col-md-4">
+  <div class="row" id="project_container">
+    <div class="col-md-4 php">
       <div class="content">
       <img src="img/breyerwoods.jpg" alt="Mountains" style="width:100%">
       <h4>Breyerwoods</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 php">
       <div class="content">
       <img src="img/bizchathub.jpg" alt="Mountains" style="width:100%">
       <h4>Bizchathub</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 php">
       <div class="content">
      <img src="img/centlining.jpg" alt="Mountains" style="width:100%">
       <h4>Centlining</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-4 php">
       <div class="content">
      <img src="img/joliespa.jpg" alt="Mountains" style="width:100%">
       <h4>Joiespa</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 php">
       <div class="content">
       <img src="img/netbusiness_group.jpg" alt="Mountains" style="width:100%">
       <h4>Netbusiness Group</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 php">
       <div class="content">
       <img src="img/piperetorationhub.jpg" alt="Mountains" style="width:100%">
       <h4>Piperetorationhub</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-4 php">
       <div class="content">
       <img src="img/design_to_apeal.jpg" alt="Mountains" style="width:100%">
       <h4>Design To Appeal</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 php">
       <div class="content">
       <img src="img/ewayitsolutions.jpg" alt="Mountains" style="width:100%">
       <h4>Eway It Solutions</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 dotnet">
       <div class="content">
       <img src="img/mirror.jpg" alt="Mountains" style="width:100%">
       <h4>Mirror</h4>
@@ -266,48 +266,50 @@
     </div>
     </div>
 
-     <div class="col-md-4">
+     <div class="col-md-4 dotnet">
       <div class="content">
       <img src="img/grievance_portal.jpg" alt="Mountains" style="width:100%">
       <h4>Grievance Portal</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-4 dotnet">
       <div class="content">
       <img src="img/kamnafoundation.jpg" alt="Mountains" style="width:100%">
       <h4>Kamnafoundation</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-4 dotnet">
       <div class="content">
       <img src="img/witness_help_desk.jpg" alt="Mountains" style="width:100%">
       <h4>Witness Help Desk</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-4 dotnet">
       <div class="content">
       <img src="img/xitonaturals.jpg" alt="Mountains" style="width:100%">
       <h4>Xitonaturals</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-4 dotnet">
       <div class="content">
       <img src="img/mirror.jpg" alt="Mountains" style="width:100%">
       <h4>Mountains</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-4 dotnet">
       <div class="content">
       <img src="img/mirror.jpg" alt="Mountains" style="width:100%">
       <h4>Mountains</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
-    </div></div><!--Project Div-->
+    </div>
+  </div><!--Project Div-->
+
   
 </div><!-- End of Row-->
 
@@ -356,11 +358,11 @@
   <h2 class="text-primary text-center"> Achievements & Other Activity</h2>
   <div class="achievements_container">
     <ul>
-      <li>Won First Prize in CHESS competetion in College Tech Fest "Emblaze 2K16"</li>
-      <li>Actively Participate in Chess during College Tournament.</li>
-      <li>Two times runner up in chess during college nodels </li>
-      <li>Secured second position in "Generale Knowledge examination" held in SLS college Shujalpur in the year 2013</li>
-      <li>Actively participate in Open Chess Tournament</li>
+      <li>Won <b>First Prize</b> in <b>CHESS</b> competetion in College Tech Fest <b>"Emblaze 2K16"</b></li>
+      <li>Actively Participate in <b>Chess</b> during <b>College Sports</b>.</li>
+      <li><b>Two times</b> runner up in <b>chess</b> during <b>college nodels</b> </li>
+      <li><b>Secured second position</b> in <b>"Generale Knowledge examination"</b> held in <b>SLS college</b> Shujalpur in the year 2013</li>
+      <li>Actively participate in <b>Open Chess Tournament</b></li>
     </ul>
   </div>
 </div>
@@ -368,27 +370,28 @@
 
 </div><!--End of Container-->
 
-<div class="footer" id="contact">
+<div class="footer" id="contact"><br>
+  <h5 class="text-center text-primary">Keep In Touch With Me </h5>
   <div class="row">
-    <h5 class="text-center text-primary">Keep In Touch With Me </h5>
+    
     <div class="col-md-3">
       <div class="myfooter">
-      <img src="img/handk.png">
+     <a href="https://github.com/Viv31/"><i class="fa fa-github" style="color:#FFFFFF;"></i><span>GITHUB</span></a>
     </div>
     </div>
      <div class="col-md-3">
       <div class="myfooter">
-       <img src="img/handk.png">
+      <a href="https://www.linkedin.com/in/vaibhav-gangrade-796387134"> <i class="fa fa-linkedin-square" style="color:#0e76a8"></i><span>LINKEDIN</span></a>
     </div>
     </div>
      <div class="col-md-3">
       <div class="myfooter">
-       <img src="img/handk.png">
+     <a href="https://stackoverflow.com/story/developer-vaibhav"> <i class="fa fa-stack-overflow" style="color:#ef8236"></i><span>Stackoverflow</span></a>
     </div>
     </div>
      <div class="col-md-3">
       <div class="myfooter">
-       <img src="img/handk.png">
+       <i class="fa fa-envelope" style="color:#D44638"></i><span>vivgangs@gmail.com</span>
     </div>
     </div>
   </div>
@@ -398,7 +401,38 @@
   </div>
 <!--End of Container Fluid-->
 
+<script type="text/javascript">
+ $(document).ready(function(){
 
+$('#php_project').click(function(){
+
+$('.php').show();
+$('.dotnet').hide();
+});
+
+
+
+$('#MvcProject').click(function(){
+
+$('.php').hide();
+$('.dotnet').show();
+});
+
+$("#all").click(function(){
+
+$('.php').show();
+$('.dotnet').show();
+
+
+});
+
+ });
+ 
+
+
+
+
+</script>
 
 
 </body>
