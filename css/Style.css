@@ -1,0 +1,140 @@
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+html {
+  scroll-behavior: smooth;
+ 
+}
+
+.compainies{
+	padding: 8px;
+}
+
+.content {
+  background-color: lightgrey;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.work_exp{
+	 background-color: lightgrey;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#expenrience{
+	background-color: #c3bdbd;
+}
+
+.experience_section{
+
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.education_section{
+
+  padding: 10px;
+  margin-top: 5px;
+  
+
+}
+
+.education{
+	 background-color: lightgrey;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.7);
+	
+}
+#hobbies{
+	
+background-color: #ece0e0;
+}
+.hobbie_container{
+
+	background-color: lightgrey;
+	border:2px solid white;
+	
+}
+.hobbie_section{
+
+margin-left: auto;
+    margin-right: auto;
+     display: block;
+
+}
+
+img.hobbie_img {
+	padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ .achievements_container{
+ 	background-color: lightgrey;
+ }
+ ul li{
+ 	margin-top: 10px;
+ }
+ img.edu_img {
+margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+ }
+
+
+ .progress-bar.progress-bar-striped.active.progress-bar-warning.ajaxmywarning {
+    background: brown;
+}
+
+
+.progress-bar.progress-bar-striped.active.progress-bar-default.phpmywarning {
+	    background: burlywood;
+	        animation: progress-bar-stripes 2s linear infinite;
+	            -webkit-animation: progress-bar-stripes 2s linear infinite;
+}
+
+.myfooter{
+	
+	margin-top: 30px;
+}
+
+.navbar-inverse {
+    background-color: #4b526d;
+    border-color: #080808;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #f1e6e6;
+}
+
+
+.profile_img{
+
+height: 100%;	
+}
+
+
+#home:befor{
+
+	background-color: rgba(0,0,0,0.7);
+	content: '';
+}
+
+#home{
+	background-image: url('../img/d.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
